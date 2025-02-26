@@ -1,14 +1,14 @@
 {
-    'name': 'Custom Module',
+    'name': 'Land Module',
     'author': 'Jojo',
     'category': 'Custom',
-    'summary': 'Custom Odoo18 Module',
-    'description': 'Custom Odoo Module for testing',
+    'summary': 'Custom Land Module',
+    'description': 'Custom Land Module for Odoo 18',
     'version': '1.0',
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-        'views/custom_user_data.xml',
+        'views/property_list_data.xml',
         'views/menu.xml',
     ],
     'installable': True,    
