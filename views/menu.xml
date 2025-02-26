@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem 
+            id="custom_module_main_menu" 
+            name="Custom Module" 
+            web_icon="custom_module, static/description/icon.png" 
+            action="custom_module.action_custom_user_data"
+            sequence="10"/>
+    </data>
+</odoo>
