@@ -9,11 +9,19 @@
                 <form string="Property List Data Form">
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="code"/>
-                            <field name="certifying_company"/>
-                            <field name="area"/>
-                            <field name="remarks"/>
+                            <separator string="Property Specifications" colspan="4"/>
+                                <group>
+                                    <field name="name"/>
+                                    <field name="code"/>
+                                    <field name="certifying_company"/>
+                                </group>
+                        </group>
+                        <group>
+                            <separator string="Location Details" colspan="4"/>
+                                <group>
+                                    <field name="area"/>
+                                    <field name="remarks"/>
+                                </group>
                         </group>
                     </sheet>
                 </form>
