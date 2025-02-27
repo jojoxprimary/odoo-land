@@ -1,0 +1,70 @@
+<odoo>
+    <data noupdate="0">
+        <!-- Development Type Master -->
+        <record id="land_master_1" model="land.master.data">
+            <field name="name">Development Type Master</field>
+            <field name="description">Development Type Master</field>
+        </record>
+
+        <!-- Land Charge Types -->
+        <record id="land_master_2" model="land.master.data">
+            <field name="name">Land Charge Types</field>
+            <field name="description">Land Charge Types</field>
+        </record>
+
+        <!-- Land Debit Note Reason -->
+        <record id="land_master_3" model="land.master.data">
+            <field name="name">Land Debit Note Reason</field>
+            <field name="description">Land Debit Note Reason</field>
+        </record>
+
+        <!-- Land Statuses -->
+        <record id="land_master_4" model="land.master.data">
+            <field name="name">Land Statuses</field>
+            <field name="description">Land Statuses</field>
+        </record>
+
+        <!-- Land Transaction Types -->
+        <record id="land_master_5" model="land.master.data">
+            <field name="name">Land Transaction Types</field>
+            <field name="description">Land Transaction Types</field>
+        </record>
+
+        <!-- Land Types -->
+        <record id="land_master_6" model="land.master.data">
+            <field name="name">Land Types</field>
+            <field name="description">Land Types</field>
+        </record>
+
+        <!-- Owner Change Types -->
+        <record id="land_master_7" model="land.master.data">
+            <field name="name">Owner Change Types</field>
+            <field name="description">Owner Change Types</field>
+        </record>
+
+        <!-- Owner Interaction Activity -->
+        <record id="land_master_8" model="land.master.data">
+            <field name="name">Owner Interaction Activity</field>
+            <field name="description">Owner Interaction Activity</field>
+        </record>
+
+        <!-- Owner Interaction Contact Method -->
+        <record id="land_master_9" model="land.master.data">
+            <field name="name">Owner Interaction Contact Method</field>
+            <field name="description">Owner Interaction Contact Method</field>
+        </record>
+
+        <!-- Owner Type -->
+        <record id="land_master_10" model="land.master.data">
+            <field name="name">Owner Type</field>
+            <field name="description">Owner Type</field>
+        </record>
+
+        <!-- Owner Type Category -->
+        <record id="land_master_11" model="land.master.data">
+            <field name="name">Owner Type Category</field>
+            <field name="description">Owner Type Category</field>
+        </record>
+
+    </data>
+</odoo>

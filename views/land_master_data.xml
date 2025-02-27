@@ -1,0 +1,58 @@
+<odoo>
+    <data>
+        <!-- FORM VIEW -->
+        <record id="view_land_master_data_form" model="ir.ui.view">
+            <field name="name">land.master.data.form.view</field>
+            <field name="model">land.master.data</field>
+            <field name="arch" type="xml">
+                <form string="Land Master Data">
+                    <sheet>
+                        <group>
+                            <field name="name" readonly="1"/>
+                            <field name="description" readonly="1"/>
+                        </group>
+                        <notebook>
+                            <page string="Details">
+                                <field name="details_ids" widget="one2many_list">
+                                    <list editable="bottom">
+                                        <field name="name"/>
+                                    </list>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- LIST VIEW -->
+        <record id="view_land_master_data_list" model="ir.ui.view">
+            <field name="name">land.master.data.list.view</field>
+            <field name="model">land.master.data</field>
+            <field name="arch" type="xml">
+                <list string="Land Master Data List" create="false">
+                    <field name="name"/>
+                    <field name="description"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- LIST VIEW FOR ONE2MANY -->
+        <record id="view_land_master_data_line_list" model="ir.ui.view">
+            <field name="name">land.master.data.line.list.view</field>
+            <field name="model">land.master.data.line</field>
+            <field name="arch" type="xml">
+                <list string="Master Data Details">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- ACTION -->
+        <record id="action_land_master_data" model="ir.actions.act_window">
+            <field name="name">Master</field>
+            <field name="res_model">land.master.data</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

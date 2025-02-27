@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+        <!-- Main Menu -->
         <menuitem 
             id="property_list_main_menu" 
             name="Land Module" 
             web_icon="static/description/icon.png" 
-            action="action_property_list_data"
             sequence="10"/>
+
+        <!-- Submenu: Property List -->
+        <menuitem
+            id="property_list_menu"
+            name="Properties"
+            parent="property_list_main_menu"
+            action="action_property_list_data"
+            sequence="20"/>
+        
+        <!-- Submenu: Masters -->
+        <menuitem
+            id="land_master_menu"
+            name="Masters"
+            parent="property_list_main_menu"
+            action="action_land_master_data"
+            sequence="30"/>
     </data>
 </odoo>

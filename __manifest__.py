@@ -8,8 +8,11 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-        'views/property_list_data.xml',
-        'views/menu.xml',
+        'views/menu.xml', 
+        'views/property_list_data.xml', 
+        'views/land_master_data.xml',  
+        'data/land_master_xmldata.xml',
+        # 'data/remove_land_master_record.xml',
     ],
     'installable': True,    
 }

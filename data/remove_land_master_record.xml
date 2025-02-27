@@ -1,0 +1,5 @@
+<odoo>
+    <data>
+        <delete model="land.master.data" id="land_master_12"/>
+    </data>
+</odoo>
