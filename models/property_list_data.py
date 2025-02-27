@@ -5,6 +5,12 @@ class PropertyListData(models.Model):
     _description = 'Property List Data'
 
     name = fields.Char('Name')
+    code = fields.Char('Property Code')
+    certifying_company = fields.Selection([
+        ('csi', 'CSI'),
+        ('psc', 'PSC'),
+        ('ppc', 'PPC')
+    ],'Certifying Company')
     area = fields.Char('Area')
     remarks = fields.Char('Remarks')
     

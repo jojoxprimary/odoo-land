@@ -10,6 +10,8 @@
                     <sheet>
                         <group>
                             <field name="name"/>
+                            <field name="code"/>
+                            <field name="certifying_company"/>
                             <field name="area"/>
                             <field name="remarks"/>
                         </group>
@@ -25,6 +27,8 @@
             <field name="arch" type="xml">
                 <list string="Property List Data List">
                     <field name="name"/>
+                    <field name="code"/>
+                    <field name="certifying_company"/>
                     <field name="area"/>
                     <field name="remarks"/>
                 </list>
