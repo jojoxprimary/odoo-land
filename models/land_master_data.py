@@ -4,8 +4,8 @@ class LandMasterData(models.Model):
     _name = 'land.master.data'
     _description = 'Master'
 
-    name = fields.Char('Name', readonly=True)
-    description = fields.Char('Description', readonly=True)
+    name = fields.Char('Name')
+    description = fields.Char('Description')
     details_ids = fields.One2many('land.master.data.line', 'master_id', string="Details")
 
     # @api.model
