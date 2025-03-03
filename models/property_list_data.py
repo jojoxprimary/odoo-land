@@ -11,6 +11,7 @@ class PropertyListData(models.Model):
         ('psc', 'PSC'),
         ('ppc', 'PPC')
     ],'Certifying Company')
+    land_type = fields.Many2one('land.master.data.line', string="Land Type")
 
     area = fields.Char('Area')
     remarks = fields.Char('Remarks')
