@@ -20,8 +20,12 @@
                         <group>
                             <separator string="Location Details" colspan="4"/>
                                 <group>
-                                    <field name="area"/>
-                                    <field name="remarks"/>
+                                    <field name="property_address"/>
+                                    <field name="country"/>
+                                    <field name="state"/>
+                                    <field name="pin"/>
+                                    <field name="latitude"/>
+                                    <field name="longitude"/>
                                 </group>
                         </group>
                     </sheet>
@@ -39,8 +43,6 @@
                     <field name="code"/>
                     <field name="certifying_company"/>
                     <field name="land_type"/>
-                    <field name="area"/>
-                    <field name="remarks"/>
                 </list>
             </field>
         </record>

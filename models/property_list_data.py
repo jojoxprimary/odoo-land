@@ -9,21 +9,18 @@ class PropertyListData(models.Model):
     certifying_company = fields.Selection([
         ('csi', 'CSI'),
         ('psc', 'PSC'),
-        ('ppc', 'PPC')
+        ('ppc', 'PPC'),
+        ('phi', 'PHI'),
     ],'Certifying Company')
-    land_type = fields.Many2one('land.master.data.line', string="Land Type")
+    land_type = fields.Many2one('land.master.data.line', string='Land Type')
+    property_address = fields.Text(string='Property Address')
+    country = fields.Many2one('res.country', string='Country')
+    state = fields.Many2one('res.country.state', string='State')
+    #city = fields.Many2one('res.city', string='City')
+    pin = fields.Char(string='Pin')
+    latitude = fields.Char(string='Latitude')
+    longitude = fields.Char(string='Longitude')
 
-    area = fields.Char('Area')
-    remarks = fields.Char('Remarks')
-
-    # property_address = fields.Text('Property Address')
-    # country = fields.Many2one('res.country', 'Country')
-    # state = fields.Many2one('res.country.state', 'State')
-    # city = fields.Many2one('res.city', 'City')
-    # locality = fields.Many2one('res.locality', 'Locality')
-    # pin = fields.Char('Pin')
-    # latitude = fields.Char('Latitude')
-    # longitude = fields.Char('Longitude')
 
 
     
