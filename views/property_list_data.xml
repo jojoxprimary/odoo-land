@@ -21,8 +21,8 @@
                             <separator string="Location Details" colspan="4"/>
                                 <group>
                                     <field name="property_address"/>
-                                    <field name="country"/>
-                                    <field name="state"/>
+                                    <field name="country_id"/>
+                                    <field name="state_id"/>
                                     <field name="pin"/>
                                     <field name="latitude"/>
                                     <field name="longitude"/>

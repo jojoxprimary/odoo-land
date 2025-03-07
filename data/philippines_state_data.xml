@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="state_abr" model="res.country.state">
+            <field name="name">Abra</field>
+            <field name="code">ABR</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_agn" model="res.country.state">
+            <field name="name">Agusan del Norte</field>
+            <field name="code">AGN</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_ags" model="res.country.state">
+            <field name="name">Agusan del Sur</field>
+            <field name="code">AGS</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_akl" model="res.country.state">
+            <field name="name">Aklan</field>
+            <field name="code">AKL</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_alb" model="res.country.state">
+            <field name="name">Albay</field>
+            <field name="code">ALB</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_ant" model="res.country.state">
+            <field name="name">Antique</field>
+            <field name="code">ANT</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_apa" model="res.country.state">
+            <field name="name">Apayao</field>
+            <field name="code">APA</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_aur" model="res.country.state">
+            <field name="name">Aurora</field>
+            <field name="code">AUR</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_bas" model="res.country.state">
+            <field name="name">Basilan</field>
+            <field name="code">BAS</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_ban" model="res.country.state">
+            <field name="name">Bataan</field>
+            <field name="code">BAN</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_btn" model="res.country.state">
+            <field name="name">Batanes</field>
+            <field name="code">BTN</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_btg" model="res.country.state">
+            <field name="name">Batangas</field>
+            <field name="code">BTG</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_ben" model="res.country.state">
+            <field name="name">Benguet</field>
+            <field name="code">BEN</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_bil" model="res.country.state">
+            <field name="name">Biliran</field>
+            <field name="code">BIL</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_boh" model="res.country.state">
+            <field name="name">Bohol</field>
+            <field name="code">BOH</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_buk" model="res.country.state">
+            <field name="name">Bukidnon</field>
+            <field name="code">BUK</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_bul" model="res.country.state">
+            <field name="name">Bulacan</field>
+            <field name="code">BUL</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_cag" model="res.country.state">
+            <field name="name">Cagayan</field>
+            <field name="code">CAG</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_can" model="res.country.state">
+            <field name="name">Camarines Norte</field>
+            <field name="code">CAN</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_cas" model="res.country.state">
+            <field name="name">Camarines Sur</field>
+            <field name="code">CAS</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_cam" model="res.country.state">
+            <field name="name">Camiguin</field>
+            <field name="code">CAM</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_cap" model="res.country.state">
+            <field name="name">Capiz</field>
+            <field name="code">CAP</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_cat" model="res.country.state">
+            <field name="name">Catanduanes</field>
+            <field name="code">CAT</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_cav" model="res.country.state">
+            <field name="name">Cavite</field>
+            <field name="code">CAV</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+        <record id="state_ceb" model="res.country.state">
+            <field name="name">Cebu</field>
+            <field name="code">CEB</field>
+            <field name="country_id" ref="base.ph"/>
+        </record>
+    </data>
+</odoo>
