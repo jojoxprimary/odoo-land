@@ -13,6 +13,7 @@
         'views/menu.xml',
         'data/land_master_xmldata.xml',
         'data/philippines_state_data.xml',
+        'data/city_data.xml'
 
         # 'data/remove_land_master_record.xml',
     ],

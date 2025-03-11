@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        <record id="ceb_alcantara" model="res.country.city">
+            <field name="name">Alcantara</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_alcoy" model="res.country.city">
+            <field name="name">Alcoy</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+         <record id="ceb_alegria" model="res.country.city">
+            <field name="name">Alegria</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_aloguinsan" model="res.country.city">
+            <field name="name">Aloguinsan</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_argao" model="res.country.city">
+            <field name="name">Argao</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_asturias" model="res.country.city">
+            <field name="name">Asturias</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_badian" model="res.country.city">
+            <field name="name">Badian</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_balamban" model="res.country.city">
+            <field name="name">Balamban</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_bantayan" model="res.country.city">
+            <field name="name">Bantayan</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_barili" model="res.country.city">
+            <field name="name">Barili</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_bogo" model="res.country.city">
+            <field name="name">City of Bogo</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_boljoon" model="res.country.city">
+            <field name="name">Boljoon</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_borbon" model="res.country.city">
+            <field name="name">Borbon</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_carcar" model="res.country.city">
+            <field name="name">City of Carcar</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_carmen" model="res.country.city">
+            <field name="name">Carmen</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_catmon" model="res.country.city">
+            <field name="name">Catmon</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_cebu" model="res.country.city">
+            <field name="name">Cebu City</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_compostela" model="res.country.city">
+            <field name="name">Compostela</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_consolacion" model="res.country.city">
+            <field name="name">Consolacion</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_cordova" model="res.country.city">
+            <field name="name">Cordova</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_daanbantayan" model="res.country.city">
+            <field name="name">Daanbantayan</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_dalaguete" model="res.country.city">
+            <field name="name">Dalaguete</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+        <record id="ceb_danao" model="res.country.city">
+            <field name="name">Danao City</field>
+            <field name="state_id" ref="state_ceb"/>
+        </record>
+
+    </data>
+
+</odoo>

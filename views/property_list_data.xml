@@ -11,7 +11,7 @@
                         <group>
                             <separator string="Property Specifications" colspan="4"/>
                                 <group>
-                                    <field name="name"/>
+                                    <field name="name" required="1"/>
                                     <field name="code"/>
                                     <field name="certifying_company"/>
                                     <field name="land_type"/>
@@ -23,6 +23,7 @@
                                     <field name="property_address"/>
                                     <field name="country_id"/>
                                     <field name="state_id"/>
+                                    <field name="city_id"/>
                                     <field name="pin"/>
                                     <field name="latitude"/>
                                     <field name="longitude"/>
