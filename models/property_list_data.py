@@ -12,7 +12,13 @@ class PropertyListData(models.Model):
         ('ppc', 'PPC'),
         ('phi', 'PHI'),
     ],'Certifying Company')
-    land_type = fields.Many2one('land.master.data.line', string='Land Type')
+
+    land_type = fields.Many2one(
+    'land.master.data.line', 
+    string='Land Type',
+    domain="[('master_id', '=', 6)]" # id of Land Types master
+    )
+
     property_address = fields.Text(string='Property Address')
     country_id = fields.Many2one('res.country', string='Country')
     state_id = fields.Many2one(
