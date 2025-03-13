@@ -8,10 +8,10 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv', 
-        'views/property_list_data.xml', 
-        'views/land_master_data.xml',  
+        'views/property_list_view.xml', 
+        'views/land_master_view.xml',  
         'views/menu.xml',
-        'data/land_master_xmldata.xml',
+        'data/land_master_data.xml',
         'data/philippines_state_data.xml',
         'data/city_data.xml'
 

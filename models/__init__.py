@@ -1,3 +1,3 @@
-from . import property_list_data
-from . import land_master_data
+from . import property_list
+from . import land_master
 from . import city
