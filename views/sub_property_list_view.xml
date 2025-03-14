@@ -13,6 +13,8 @@
                             <group>
                                 <field name="property_name" required="1"/>
                                 <field name="name" required="1"/>
+                                <field name="subproperty_code"/>
+                                <field name="development_type"/>    
                             </group>
                         </group>
                     </sheet>
@@ -28,6 +30,8 @@
                 <list string="Sub Property List">
                     <field name="property_name"/>
                     <field name="name"/>
+                    <field name="subproperty_code"/>
+                    <field name="development_type"/>
                 </list>
             </field>
         </record>
