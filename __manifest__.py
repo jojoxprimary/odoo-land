@@ -7,10 +7,11 @@
     'version': '1.0',
     'depends': ['base'],
     'data': [
-        'security/ir.model.access.csv', 
+        'security/ir.model.access.csv',
+        'views/menu.xml', 
         'views/property_list_view.xml', 
         'views/land_master_view.xml',  
-        'views/menu.xml',
+        'views/sub_property_list_view.xml',
         'data/land_master_data.xml',
         'data/philippines_state_data.xml',
         'data/city_data.xml'

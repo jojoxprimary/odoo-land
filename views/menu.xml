@@ -15,6 +15,14 @@
             parent="property_list_main_menu"
             action="action_property_list_data"
             sequence="20"/>
+
+            <!-- Submenu: Sub Property List -->
+        <menuitem
+            id="subproperty_list_menu"
+            name="Sub Properties"
+            parent="property_list_main_menu"
+            action="action_subproperty_list_data"
+            sequence="30"/>
         
         <!-- Submenu: Masters -->
         <menuitem
@@ -22,6 +30,6 @@
             name="Masters"
             parent="property_list_main_menu"
             action="action_land_master_data"
-            sequence="30"/>
+            sequence="40"/>
     </data>
 </odoo>
