@@ -16,7 +16,7 @@ class PropertyListData(models.Model):
     land_type = fields.Many2one(
     'land.master.data.line', 
     string='Land Type',
-    domain="[('master_id', '=', 6)]" # id of Land Types master
+    domain="[('master_id.name', '=', 'Land Types')]"
     )
 
     property_address = fields.Text(string='Property Address')
