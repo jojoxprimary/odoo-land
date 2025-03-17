@@ -5,3 +5,5 @@ access_land_master_data_line,access.land.master.data.line,model_land_master_data
 access_country_city,access.country.city,model_res_country_city,,1,1,1,1
 access_subproperty_list_data,access.subproperty.list.data,model_subproperty_list_data,,1,1,1,1
 
+access_land_list_data,access.land.list.data,model_land_list_data,,1,1,1,1
+

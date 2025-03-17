@@ -1,0 +1,47 @@
+<odoo>
+    <data>
+        <!-- FORM VIEW -->
+        <record id="view_land_list_data_form" model="ir.ui.view">
+            <field name="name">land.list.data.form.view</field>
+            <field name="model">land.list.data</field>
+            <field name="arch" type="xml">
+                <form string="Land List Data Form">
+                    <sheet>
+                        <group>
+                            <separator string="Land Specifications" colspan="4"/>
+                            <group>
+                                <field name="property_name" required="1"/>
+                                <field name="name" required="1"/>
+                                <field name="certifying_company"/>
+                                <field name="land_type"/>    
+                                <field name="land_transaction_type"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!-- TREE/LIST VIEW -->
+        <record id="view_land_list_data_list" model="ir.ui.view">
+            <field name="name">land.list.data.list.view</field>
+            <field name="model">land.list.data</field>
+            <field name="arch" type="xml">
+                <list string="Land List">
+                    <field name="property_name"/>
+                    <field name="name"/>
+                    <field name="certifying_company"/>
+                    <field name="land_type"/>
+                    <field name="land_transaction_type"/>
+                </list>
+            </field>
+            
+        </record>
+        <!-- ACTION -->
+        <record id="action_land_list_data" model="ir.actions.act_window">
+            <field name="name">Lands</field>
+            <field name="res_model">land.list.data</field>
+            <field name="view_mode">list,form</field>
+            <field name="view_id" ref="view_land_list_data_list"/>
+        </record>
+    </data>
+</odoo>
