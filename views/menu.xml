@@ -4,7 +4,7 @@
         <!-- Main Menu -->
         <menuitem 
             id="property_list_main_menu" 
-            name="Land Module" 
+            name="Land" 
             web_icon="static/description/icon.png" 
             sequence="10"/>
 

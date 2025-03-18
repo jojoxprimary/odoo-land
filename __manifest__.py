@@ -1,5 +1,5 @@
 {
-    'name': 'Land Module',
+    'name': 'Land',
     'author': 'Jojo',
     'category': 'Custom',
     'summary': 'Custom Land Module',
