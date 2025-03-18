@@ -1,4 +1,3 @@
-
 <odoo>
     <data>
         <!-- FORM VIEW -->
@@ -6,29 +5,50 @@
             <field name="name">property.list.data.form.view</field>
             <field name="model">property.list.data</field>
             <field name="arch" type="xml">
-                <form string="Property List Data Form">
+                <form string="Property List Data Form" auto_edit_mode="0">
                     <sheet>
-                        <group>
-                            <separator string="Property Specifications" colspan="4"/>
+                        <notebook>
+                            <!-- Tab 1: Property Details -->
+                            <page string="Property Details">
                                 <group>
-                                    <field name="name" required="1"/>
-                                    <field name="code"/>
-                                    <field name="certifying_company"/>
-                                    <field name="land_type"/>
+                                    <separator string="Property Specifications" colspan="4"/>
+                                    <group>
+                                        <field name="name" required="1"/>
+                                        <field name="code"/>
+                                        <field name="certifying_company"/>
+                                        <field name="land_type"/>
+                                    </group>
                                 </group>
-                        </group>
-                        <group>
-                            <separator string="Location Details" colspan="4"/>
                                 <group>
-                                    <field name="property_address"/>
-                                    <field name="country_id"/>
-                                    <field name="state_id"/>
-                                    <field name="city_id"/>
-                                    <field name="pin"/>
-                                    <field name="latitude"/>
-                                    <field name="longitude"/>
+                                    <separator string="Location Details" colspan="4"/>
+                                    <group>
+                                        <field name="property_address"/>
+                                        <field name="country_id"/>
+                                        <field name="state_id"/>
+                                        <field name="city_id"/>
+                                        <field name="pin"/>
+                                        <field name="latitude"/>
+                                        <field name="longitude"/>
+                                    </group>
                                 </group>
-                        </group>
+                            </page>
+
+                            <!-- Tab 2: Land Details -->
+                            <page string="Land Details">
+                                <field name="land_ids" widget="one2many">
+                                    <list>
+                                        <field name="name"/>
+                                        <field name="property_id"/>
+                                        <field name=""/>
+                                    </list>
+                                </field>
+                            </page>
+
+                            <!-- Tab 3: Sanctions -->
+                            <page string="Sanctions">
+                                <!-- Add fields for Sanctions here -->
+                            </page>  
+                        </notebook>
                     </sheet>
                 </form>
             </field>
@@ -55,6 +75,5 @@
             <field name="view_mode">list,form</field>
             <field name="view_id" ref="view_property_list_data_list"/>
         </record>
-
     </data>
 </odoo>

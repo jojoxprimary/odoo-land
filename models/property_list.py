@@ -33,6 +33,17 @@ class PropertyListData(models.Model):
     latitude = fields.Char(string='Latitude')
     longitude = fields.Char(string='Longitude')
 
+    land_ids = fields.One2many(
+        'land.list.data', 
+        'property_id', 
+        string="Land Details"
+    )
+    # Property name unique
+    _sql_constraints = [
+        ('name_unique', 
+         'UNIQUE(name)', 
+         'Property already exists!'), 
+    ]
 
 
     

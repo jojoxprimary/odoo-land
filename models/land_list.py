@@ -24,3 +24,12 @@ class LandListData(models.Model):
         string = 'Land Transaction Type',
         domain = "[('master_id.name', '=', 'Land Transaction Types')]"
     )
+    nature_of_deed = fields.Char('Nature of Deed')
+    area_unit_of_measurement = fields.Selection([
+        ('squaremeter', 'Square Meter'),
+        ('squarefoot', 'Square Foot'),
+        ('squareyard', 'Square Yard')
+    ],'Area Unit of Measurement')
+
+    property_id = fields.Many2one('property.list.data', string='Property')
+

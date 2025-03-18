@@ -6,7 +6,11 @@ class LandMasterData(models.Model):
 
     name = fields.Char(string='Name')
     description = fields.Char(string='Description')
-    details_ids = fields.One2many('land.master.data.line', 'master_id', string="Details")
+    details_ids = fields.One2many(
+        'land.master.data.line', 
+        'master_id', 
+        string="Details"
+    )
 
 # Each master data lists
 class LandMasterDataLine(models.Model):
