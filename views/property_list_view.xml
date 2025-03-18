@@ -43,11 +43,6 @@
                                     </list>
                                 </field>
                             </page>
-
-                            <!-- Tab 3: Sanctions -->
-                            <page string="Sanctions">
-                                <!-- Add fields for Sanctions here -->
-                            </page>  
                         </notebook>
                     </sheet>
                 </form>
