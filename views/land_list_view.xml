@@ -10,7 +10,7 @@
                         <group>
                             <separator string="Land Specifications" colspan="4"/>
                             <group>
-                                <field name="property_name" required="1"/>
+                                <field name="property_id" required="1"/>
                                 <field name="name" required="1"/>
                                 <field name="certifying_company"/>
                                 <field name="land_type"/>    
@@ -29,7 +29,7 @@
             <field name="model">land.list.data</field>
             <field name="arch" type="xml">
                 <list string="Land List">
-                    <field name="property_name"/>
+                    <field name="property_id"/>
                     <field name="name"/>
                     <field name="certifying_company"/>
                     <field name="land_type"/>

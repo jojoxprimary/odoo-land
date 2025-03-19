@@ -35,10 +35,13 @@
 
                             <!-- Tab 2: Land Details -->
                             <page string="Land Details">
-                                <field name="land_ids" widget="one2many">
+                                <field name="land_ids" widget="one2many" options="{'create':False, 'delete':False}" readonly="1">
                                     <list>
                                         <field name="name"/>
                                         <field name="property_id"/>
+                                        <field name="certifying_company"/>
+                                        <field name="land_type"/>
+                                        <field name="land_transaction_type"/>
                                     </list>
                                 </field>
                             </page>

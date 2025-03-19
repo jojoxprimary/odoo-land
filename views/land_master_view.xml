@@ -32,7 +32,6 @@
             <field name="arch" type="xml">
                 <list string="Land Master Data List" create="false">
                     <field name="name"/>
-                    <field name="description"/>
                 </list>
             </field>
         </record>

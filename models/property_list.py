@@ -36,7 +36,8 @@ class PropertyListData(models.Model):
     land_ids = fields.One2many(
         'land.list.data', 
         'property_id', 
-        string="Land Details"
+        string="Land Details",
+        readony=True
     )
     # Property name unique
     _sql_constraints = [

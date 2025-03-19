@@ -3,7 +3,7 @@ class LandListData(models.Model):
     _name = 'land.list.data'
     _description = 'Land List Data'
 
-    property_name = fields.Many2one(
+    property_id = fields.Many2one(
         'property.list.data',
         string = 'Property Name',
         required = True
@@ -31,5 +31,5 @@ class LandListData(models.Model):
         ('squareyard', 'Square Yard')
     ],'Area Unit of Measurement')
 
-    property_id = fields.Many2one('property.list.data', string='Property')
+    # property_id = fields.Many2one('property.list.data', string='Property')
 
