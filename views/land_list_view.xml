@@ -10,11 +10,11 @@
                         <group>
                             <separator string="Land Specifications" colspan="4"/>
                             <group>
-                                <field name="property_id" required="1"/>
+                                <field name="property_id" required="1" options="{'no_open': True}"/>
                                 <field name="name" required="1"/>
                                 <field name="certifying_company"/>
-                                <field name="land_type"/>    
-                                <field name="land_transaction_type"/>
+                                <field name="land_type" options="{'no_open': True}"/>    
+                                <field name="land_transaction_type" options="{'no_open': True}"/>
                                 <field name="nature_of_deed"/>
                                 <field name="area_unit_of_measurement"/>
                             </group>
